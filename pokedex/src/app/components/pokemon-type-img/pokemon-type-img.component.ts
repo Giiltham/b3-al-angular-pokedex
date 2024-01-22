@@ -7,5 +7,5 @@ import {Component, Input} from '@angular/core';
 })
 export class PokemonTypeImgComponent {
   @Input({required: true})
-  pokemonType: string = ""
+  pokemonType = ""
 }
